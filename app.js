@@ -312,7 +312,7 @@ function askListing (session, args, next) {
     } else {
         // Great! pass the listing to the next step in the waterfall which will answer the question.
         // * This will match the format of the response returned from Prompts.choice().
-        next({ response: listing })
+        next({ response: listing });
     }
 }
 
